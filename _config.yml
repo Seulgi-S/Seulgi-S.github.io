@@ -36,3 +36,5 @@ author:
 
 google_analytics:
   ua: 'G-SZ1NPRPE9J'
+
+theme: jekyll-theme-cayman
