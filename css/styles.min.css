@@ -784,12 +784,7 @@ textarea:focus, textarea.form-control:focus, input.form-control:focus, input[typ
 .nav > li > a{
 	font-size: 20px;
 }
-#skill_title{
-	display: flex;
-	justify-content: space-between;
-	width: 59%;
-}
-#skill_title > p{
+.skill_title > p{
 	font-size: 20px;
 	color: #497887;
 	font-weight: bold;
