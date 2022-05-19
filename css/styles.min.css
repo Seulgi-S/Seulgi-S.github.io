@@ -19,7 +19,7 @@ a:hover{
 }
 .btn {
     border-radius: 50px;
-    font-family: Titillium Web;
+    font-family: Noto Sans KR;
 }
 .widget{
     background: #fff none repeat scroll 0 0;
@@ -58,31 +58,34 @@ a:hover{
 }
 body {
     color: #3c3c3c;
-    font: 300 14px open sans,sans-serif;
+    font: 300 14px open sans, sans-serif;
     letter-spacing: 0.5px;
     overflow-x: hidden;
 }
 h1, h2, h3, h4, h5 {
     color: #232323;
-	font-family: 'Titillium Web', sans-serif;
+	font-family:'Noto Sans KR', sans-serif;
 }
 h1 {
-    font: 900 24px/36px "Titillium Web",serif;
+    font: 24px/36px "Noto Sans KR", serif;
     margin: 0 0 15px;
 }
 h2 {
-    font: 200 38px "Titillium Web",serif;
+    font: 200 38px "Noto Sans KR",serif;
 }
 h3 {
-    font: 900 16px "Titillium Web",serif;
+    font: 900 16px "Noto Sans KR",serif;
     letter-spacing: 1.5px;
 }
-.portfolio-filter ul li, .sidebar .nav li, h4 {
+h4{
+    letter-spacing: 1px;
+}
+.sidebar .nav li, .portfolio-filter ul li {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 h4 {
-    font: 900 13px "Titillium Web",serif;
+    font: 900 13px "Noto Sans KR",serif;
 }
 p {
     line-height: 24px;
@@ -191,7 +194,7 @@ li {
     transform: rotate3d(0, 0, 1, -45deg);
 }
 .sidebar .nav li {
-    font: 900 13px "Titillium Web",serif;
+    font: 900 13px "Noto Sans KR",serif;
     padding: 10px 0;
 }
 .sidebar .nav li a {
@@ -255,10 +258,10 @@ li {
 	border-width: 5px;
 	margin-top: -5px;
 }
-.imageWrapper, .progress-bar {
+.imageWrapper, .progress-bar, .progress-bar-sub{
     position: relative;
 }
-.progress, .progress-bar {
+.progress, .progress-bar, .progress-bar-sub{
     box-shadow: none;
     height: 6px;
 }
@@ -269,6 +272,9 @@ li {
 }
 .progress-bar {
     background: #497887 none repeat scroll 0 0;
+}
+.progress-bar-sub {
+    background: #9EC1CC none repeat scroll 0 0;
 }
 .services-background {
     margin-bottom: -30px;
@@ -340,7 +346,7 @@ li {
     width: 100%;
 }
 .imageHover {
-    background: rgba(156, 39, 176, 0.9) none repeat scroll 0 0;
+    background: rgba(73, 120, 135, 0.9) none repeat scroll 0 0;
     color: #fff;
     height: 100%;
     left: 0;
@@ -394,7 +400,7 @@ button.mfp-close:hover {
     width: 100%;
 }
 .resume-background {
-    padding: 100px 0 0;
+    padding: 100px 0 100px;
 }
 .resumeWrapper {
     padding: 0;
@@ -612,7 +618,7 @@ textarea {
     border-radius: 20px;
     color: #fff;
     display: inline-block;
-    font: italic 900 13px "Titillium Web",serif;
+    font: italic 900 13px "Noto Sans KR",serif;
     padding: 10px 25px;
     transition: all 0.1s linear 0s;
 }
@@ -649,7 +655,7 @@ textarea {
     border-radius: 20px;
     color: #fff;
     display: inline-block;
-    font: italic 900 13px "Titillium Web",serif;
+    font: italic 900 13px "Noto Sans KR",serif;
     letter-spacing: 1px;
     padding: 10px 25px;
     text-transform: uppercase;
@@ -771,5 +777,21 @@ textarea {
     background: #ca3737 none repeat scroll 0 0;
 }
 textarea:focus, textarea.form-control:focus, input.form-control:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="number"]:focus, .form-control[type="text"]:focus, .form-control[type="password"]:focus, .form-control[type="email"]:focus, .form-control[type="tel"]:focus, .form-control[contenteditable]:focus {
-    box-shadow: 0 -2px 0 #8c17a0 inset;
+    box-shadow: 0 -2px 0 #497887 inset;
+}
+
+/* 추가한 css */
+.nav > li > a{
+	font-size: 20px;
+}
+#skill_title{
+	display: flex;
+	justify-content: space-between;
+	width: 59%;
+}
+#skill_title > p{
+	font-size: 20px;
+	color: #497887;
+	font-weight: bold;
+	margin-top: 30px;
 }
