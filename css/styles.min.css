@@ -90,6 +90,7 @@ h4 {
 p {
     line-height: 24px;
     margin: 0;
+    word-break: break-all;
 }
 a, a:focus, a:hover {
     text-decoration: none;
@@ -400,7 +401,7 @@ button.mfp-close:hover {
     width: 100%;
 }
 .resume-background {
-    padding: 100px 0 100px;
+    padding: 100px 0 0;
 }
 .resumeWrapper {
     padding: 0;
